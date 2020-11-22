@@ -1,0 +1,27 @@
+server:
+  port: 8090
+
+resttemplate:
+  timeout:
+    read: 300
+    connection: 1000
+
+######## resilience4j ########
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      registerHealthIndicator: true
+      slidingWindowSize: 40                               # Tamaño de ventana deslizante
+      minimumNumberOfCalls: 5                             # Número mínimo de llamadas que se requieren antes de calcular la tasa de error
+      permittedNumberOfCallsInHalfOpenState: 2            # Numero de llamadas permitidas en HALF-OPEN
+      automaticTransitionFromOpenToHalfOpenEnabled: true  # Se activa el paso de Open a Half-Open de forma automatica al finalizar waitDurationInOpenState sin que tenga que esperar que se realice alguna llamada
+      waitDurationInOpenState: PT6s                       # Tiempo (segundos) de espera en estado Open antes de pasar a Half-Open
+      failureRateThreshold: 50                            # Si porcentaje de falla >= failureRateThreshold se abre (OPEN) el circuito
+      slowCallDurationThreshold: PT10s                    # Definiendo tiempo (segundos) a partir del cual una llamada se considerará lenta
+      slowCallRateThreshold: 100                          # Si porcentaje de llamadas lentas >= slowCallRateThreshold se abre (OPEN) el circuito
+  instances:
+    instanceServicioExterno:
+      baseConfig: default
+      slidingWindowType: COUNT_BASED                      # Definiendo tipo de ventana deslizante. COUNT_BASED cuenta por failureRateThreshold e ignora slowCallDurationThreshold
+      #ignoreExceptions:
+      #  - com.client.circuitbreaker.exception.YourException

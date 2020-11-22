@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="560f993e-f429-4c55-b12a-fc0c8f2088d4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="circuitbreaker" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="circuitbreaker" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1keYdtiXqTpELs7mU5rpguxeh9h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/main/java/com/client/circuitbreaker/circuitbreaker/config/resilience4j" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/main/java/com/client/circuitbreaker/circuitbreaker/config/resilience4j" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.client.circuitbreaker.circuitbreaker.domain" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.client.circuitbreaker.circuitbreaker.service" />
+      <recent name="com.server.circuitbreaker.circuitbreaker.domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ClientCircuitbreakerApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'com.server.circuitbreaker.circuitbreaker'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CircuitbreakerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.circuitbreaker.demo.CircuitbreakerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientCircuitbreakerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="circuitbreaker.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.client.circuitbreaker.circuitbreaker.ClientCircuitbreakerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerCircuitBreakerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.server.circuitbreaker.circuitbreaker.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.circuitbreaker.circuitbreaker.ServerCircuitBreakerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'com.server.circuitbreaker.circuitbreaker'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="560f993e-f429-4c55-b12a-fc0c8f2088d4" name="Default Changelist" comment="" />
+      <created>1606062615037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606062615037</updated>
+      <workItem from="1606062616073" duration="45000" />
+      <workItem from="1606062793152" duration="16222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="659" y="246" width="733" height="583" key="#xdebugger.evaluate" timestamp="1606086416745">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state x="659" y="246" width="733" height="583" key="#xdebugger.evaluate/0.23.1792.1019@0.23.1792.1019" timestamp="1606086416745" />
+    <state width="1750" height="350" key="GridCell.Tab.0.bottom" timestamp="1606086507017">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="1750" height="350" key="GridCell.Tab.0.bottom/0.23.1792.1019@0.23.1792.1019" timestamp="1606086507017" />
+    <state width="1750" height="350" key="GridCell.Tab.0.center" timestamp="1606086507016">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="1750" height="350" key="GridCell.Tab.0.center/0.23.1792.1019@0.23.1792.1019" timestamp="1606086507016" />
+    <state width="1750" height="350" key="GridCell.Tab.0.left" timestamp="1606086507015">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="1750" height="350" key="GridCell.Tab.0.left/0.23.1792.1019@0.23.1792.1019" timestamp="1606086507015" />
+    <state width="1750" height="350" key="GridCell.Tab.0.right" timestamp="1606086507017">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="1750" height="350" key="GridCell.Tab.0.right/0.23.1792.1019@0.23.1792.1019" timestamp="1606086507017" />
+    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1606086506932">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.bottom/0.23.1792.1019@0.23.1792.1019" timestamp="1606086506932" />
+    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1606086506932">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.center/0.23.1792.1019@0.23.1792.1019" timestamp="1606086506932" />
+    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1606086506931">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.left/0.23.1792.1019@0.23.1792.1019" timestamp="1606086506931" />
+    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1606086506932">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.right/0.23.1792.1019@0.23.1792.1019" timestamp="1606086506932" />
+    <state width="0" height="0" key="GridCell.Tab.2.bottom" timestamp="1606086506933">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.2.bottom/0.23.1792.1019@0.23.1792.1019" timestamp="1606086506933" />
+    <state width="0" height="0" key="GridCell.Tab.2.center" timestamp="1606086506933">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.2.center/0.23.1792.1019@0.23.1792.1019" timestamp="1606086506933" />
+    <state width="0" height="0" key="GridCell.Tab.2.left" timestamp="1606086506932">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.2.left/0.23.1792.1019@0.23.1792.1019" timestamp="1606086506932" />
+    <state width="0" height="0" key="GridCell.Tab.2.right" timestamp="1606086506933">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.2.right/0.23.1792.1019@0.23.1792.1019" timestamp="1606086506933" />
+    <state width="668" height="428" key="javadoc.popup" timestamp="1606082114899">
+      <screen x="0" y="23" width="1792" height="1019" />
+    </state>
+    <state width="668" height="428" key="javadoc.popup/0.23.1792.1019@0.23.1792.1019" timestamp="1606082114899" />
+  </component>
+</project>

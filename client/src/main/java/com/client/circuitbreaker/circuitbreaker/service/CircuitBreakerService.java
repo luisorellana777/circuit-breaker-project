@@ -18,9 +18,9 @@ public class CircuitBreakerService {
     private final CircuitBreakerRegistry circuitBreakerRegistry;
 
     public <T> T executeSupplier(Supplier<T> supplier, Consumer<Throwable> onFailureConsumer) {
-        this.circuitBreakerRegistry.circuitBreaker("default");
+        this.circuitBreakerRegistry.circuitBreaker("default", "default");
         CircuitBreaker circuitBreaker = circuitBreakerRegistry.find("default")
-                .orElseThrow(() -> new RuntimeException("CircuitBreaker Exception")
+                .orElseThrow(() -> new RuntimeException("CircuitBreaker Not Found")
                 );
 
         Supplier<T> decoratedSupplier = CircuitBreaker.decorateSupplier(circuitBreaker, supplier);

@@ -3,8 +3,8 @@ server:
 
 resttemplate:
   timeout:
-    read: 300
-    connection: 1000
+    read: 10000
+    connection: 10000
 
 ######## resilience4j ########
 resilience4j.circuitbreaker:

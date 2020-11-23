@@ -24,14 +24,13 @@ public class DomainService {
 
     public List<Sale> getSales() {
 
-        for (Sale sale : saleList) {
+        saleList.forEach(sale -> {
             Integer idClient = sale.getClient().getId();
 
             ResponseEntity<Person> entity = restTemplate.exchange("http://localhost:8091/persons/" + idClient, HttpMethod.GET, HttpEntity.EMPTY, Person.class);
             Person person = entity.getBody();
             sale.setClient(person);
-        }
-
+        });
 
         return saleList;
     }
